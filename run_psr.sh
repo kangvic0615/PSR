@@ -1,0 +1,4 @@
+python run_recbole.py --model PSR --dataset Amazon_Clothing_Shoes_and_Jewelry --config_files configs/psr.yaml --train_batch_size 512 --patch_len 2 --stride 1 --patch_fusion last --patch_lamda 0.5 --padding_patch repeat
+python run_recbole.py --model PSR --dataset Amazon_Video_Games --config_files configs/psr.yaml --train_batch_size 512 --patch_len 2 --stride 1 --patch_fusion last --patch_lamda 0.5 --padding_patch repeat
+# python run_recbole.py --model PSR --dataset Amazon_Beauty --config_files configs/psr.yaml --train_batch_size 512 --patch_len 2 --stride 1 --patch_fusion last --patch_lamda 0.5 --padding_patch repeat
+# python run_recbole.py --model PSR --dataset ml-1m --config_files configs/psr.yaml --train_batch_size 512 --patch_len 4 --stride 2 --patch_fusion last --patch_lamda 0.5 --padding_patch repeat
